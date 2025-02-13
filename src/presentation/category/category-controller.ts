@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { CustomError, PaginationDto } from "../../domain";
 import { CreateCategoryDto } from '../../domain/dtos/category/create-category.dto';
 import { CategoryService } from "../services/category.service";
-import { CategoryModel } from '../../data/mongo/models/category.model';
+
 
 export class CategoryController {
   
